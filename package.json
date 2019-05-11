@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/andreygal/js-forkify#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
     "webpack": "^4.31.0"
   },
   "dependencies": {}
