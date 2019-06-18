@@ -4,7 +4,7 @@
   "description": "Forkify project ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,7 @@
     "babel-loader": "^8.0.5",
     "webpack": "^4.31.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4"
+  }
 }
